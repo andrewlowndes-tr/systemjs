@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "module": "commonjs"
+  }
+}

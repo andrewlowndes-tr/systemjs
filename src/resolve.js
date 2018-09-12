@@ -1,8 +1,8 @@
 import RegisterLoader from 'es-module-loader/core/register-loader.js';
+
 import { getMapMatch, readMemberExpression, extendMeta, addToError, resolveIfNotPlain,
-    baseURI, CONFIG, METADATA, applyPaths, resolvedPromise, getPackage } from './common.js';
+    baseURI, CONFIG, METADATA, applyPaths, resolvedPromise } from './common.js';
 import { setPkgConfig, createPackage } from './config.js';
-import fetch from './fetch.js';
 
 export function createMetadata () {
   return {

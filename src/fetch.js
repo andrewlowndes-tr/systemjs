@@ -38,7 +38,7 @@ function fetchFetch (url, authorization, integrity, asBuffer) {
   });
 }
 
-function xhrFetch (url, authorization, integrity, asBuffer) {
+function xhrFetch (url, authorization, _, asBuffer) {
   return new Promise(function (resolve, reject) {
     // percent encode just "#" for HTTP requests
     url = url.replace(/#/g, '%23');

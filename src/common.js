@@ -1,6 +1,5 @@
 import { resolveIfNotPlain } from 'es-module-loader/core/resolve.js';
 import { baseURI, isBrowser, isWindows, addToError, global, createSymbol, toStringTag } from 'es-module-loader/core/common.js';
-import RegisterLoader from 'es-module-loader/core/register-loader.js';
 import { ModuleNamespace } from 'es-module-loader/core/loader-polyfill.js';
 
 export { baseURI, isBrowser, isWindows, addToError, global, resolveIfNotPlain, ModuleNamespace }

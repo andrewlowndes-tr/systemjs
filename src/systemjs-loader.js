@@ -1,6 +1,6 @@
 import RegisterLoader from 'es-module-loader/core/register-loader.js';
-import { warn, isBrowser, global, baseURI, CONFIG, METADATA, ModuleNamespace, emptyModule, isModule } from './common.js';
 
+import { warn, isBrowser, global, baseURI, CONFIG, METADATA, ModuleNamespace, emptyModule, isModule } from './common.js';
 import { getConfig, getConfigItem, setConfig } from './config.js';
 import { decanonicalize, normalize, normalizeSync } from './resolve.js';
 import { instantiate, nodeRequire } from './instantiate.js';

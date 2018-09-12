@@ -1,7 +1,7 @@
 import { ModuleNamespace } from 'es-module-loader/core/loader-polyfill.js';
 import RegisterLoader from 'es-module-loader/core/register-loader.js';
 import { global, baseURI, CONFIG, PLAIN_RESOLVE, PLAIN_RESOLVE_SYNC, resolveIfNotPlain, resolvedPromise,
-    extend, emptyModule, applyPaths, scriptLoad, getMapMatch, noop, preloadScript, isModule, isNode, isBrowser } from './common.js';
+    extend, applyPaths, scriptLoad, getMapMatch, preloadScript, isModule, isBrowser } from './common.js';
 import { registerLastDefine, globalIterator, setAmdHelper } from './format-helpers.js';
 
 export { ModuleNamespace }
