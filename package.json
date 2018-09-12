@@ -9,7 +9,8 @@
   "author": "Guy Bedford",
   "license": "MIT",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "main": "dist/system.src.js",
   "devDependencies": {
