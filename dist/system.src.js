@@ -1,6 +1,6 @@
 /*
-    * SystemJS v0.21.4 Dev
-    */
+* SystemJS v0.21.4 Dev
+*/
 (function () {
   'use strict';
 
